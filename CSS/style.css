@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fascia-violetta {
+    background-color: #e579e6;
+    min-height: 120px;
+    margin-bottom: 30px;
+}
+
+.fascia-gialla {
+    background-color: #e1d67a;
+    min-height: 450px;
+    margin-bottom: 30px;
+}
+
+.sfondo-blu {
+    background-color: #0480fa;
+    min-height: 685px;
+}
+
+.fascia-alta-celeste {
+    background-color: #abcfe7;
+    min-height: 90px;
+    margin-bottom: 25px;
+}
+
+.colonna-sinistra {
+    background-color: #abcfe7;
+    min-height: 550px;
+    float: left;
+    width: 20%;
+}
+
+.colonna-centrale {
+    background-color: #abcfe7;
+    min-height: 550px;
+    float: left;
+    width: calc(60% - 30px);
+    margin-left: 15px;
+}
+
+.colonna-destra {
+    background-color: #abcfe7;
+    min-height: 550px;
+    float: left;
+    width: 20%;
+    margin-left: 15px;
+}
+
+.fascia-viola {
+    background-color: #8900fe;
+    min-height: 70px;
+    margin-top: 10px;
+}
