@@ -9,6 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav ul li {
+    display: inline-block;
+}
+
 .contenitore {
     max-width: 1280px;
     margin: auto;
