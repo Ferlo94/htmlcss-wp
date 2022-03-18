@@ -11,7 +11,17 @@ body {
 
 nav ul li {
     display: inline-block;
+    padding-top: 20px;
+    margin-left: 5px;
+    
 }
+
+a {
+    text-decoration: none;
+    color: #8A8A8A;
+    
+}
+
 
 .contenitore {
     max-width: 1280px;
@@ -25,7 +35,7 @@ nav ul li {
 }
 
 .fascia-violetta {
-    background-color: #e579e6;
+    background-color: white;
     min-height: 120px;
     margin-bottom: 30px;
 }
