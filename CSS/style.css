@@ -11,7 +11,7 @@ body {
 
 nav ul li {
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 25px;
     margin-left: 5px;
     
 }
@@ -37,15 +37,20 @@ a {
 .fascia-violetta {
     background-color: white;
     min-height: 120px;
-    margin-bottom: 30px;
 }
 
-.fascia-gialla {
+.tipa-yoga {
     margin-bottom: 30px;
     background-position: center;
     background-image: url(../img/banner.jpg);
-    min-height: 683px;
+    height: 500px;
     border-radius: 10px;
+}
+
+.testo-yoga {
+    padding-top: 310px;
+    padding-left: 60px;
+    color: white;
 }
 
 .sfondo-blu {
@@ -89,5 +94,5 @@ a {
 }
 
 .logo {
-    height: 45px;
+    height: 60px;
 }
