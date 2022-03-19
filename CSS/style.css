@@ -6,22 +6,23 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(238, 238, 238);
 }
 
 nav ul li {
     display: inline-block;
     padding-top: 25px;
-    margin-left: 5px;
-    
+    margin-left: 5px; 
 }
 
 a {
     text-decoration: none;
     color: #8A8A8A;
-    
 }
 
+h1 {
+    font-size: 35px;
+}
 
 .contenitore {
     max-width: 1280px;
@@ -35,11 +36,12 @@ a {
 }
 
 .fascia-violetta {
-    background-color: white;
+    background-color: rgb(238, 238, 238);
     min-height: 120px;
 }
 
 .tipa-yoga {
+    margin-top: 25px;
     margin-bottom: 30px;
     background-position: center;
     background-image: url(../img/banner.jpg);
@@ -50,29 +52,36 @@ a {
 .testo-yoga {
     padding-top: 310px;
     padding-left: 60px;
-    color: white;
+    max-width: 710px;
 }
 
-.sfondo-blu {
-    background-color: #0480fa;
+.scritta-grande-yoga {
+    font-size: 23px;
+    color: black;
+}
+
+.scritta-piccola-yoga {
+    font-size: 16px;
+    color: black;
+}
+
+.sfondo-blu {;
     min-height: 685px;
 }
 
-.fascia-alta-celeste {
-    background-color: #abcfe7;
-    min-height: 90px;
-    margin-bottom: 25px;
+.leadership {
+    min-height: 100px;
+    padding-top: 10px;
+
 }
 
 .colonna-sinistra {
-    background-color: #abcfe7;
     min-height: 550px;
     float: left;
     width: 20%;
 }
 
 .colonna-centrale {
-    background-color: #abcfe7;
     min-height: 550px;
     float: left;
     width: calc(60% - 30px);
@@ -80,19 +89,42 @@ a {
 }
 
 .colonna-destra {
-    background-color: #abcfe7;
     min-height: 550px;
     float: left;
     width: 20%;
     margin-left: 15px;
 }
 
-.fascia-viola {
-    background-color: #8900fe;
+.frase-finale {
     min-height: 70px;
     margin-top: 10px;
+    color: #8A8A8A;
+    text-align: center;
 }
 
 .logo {
     height: 60px;
 }
+
+.immagine-sinistra {
+    height: 255px;
+    width: 255px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.immagine-destra {
+    width: 256px;
+    height: 255px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.immagine-centro {
+    width: 738px;
+    height: 255px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
